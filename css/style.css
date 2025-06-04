@@ -521,6 +521,10 @@ header {
   height: 16px;
 }
 
+.social-link:hover,
+.social-link:focus {
+  background-color: #404bbf;
+}
 
 /* Footer */
 .footer {
