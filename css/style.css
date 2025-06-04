@@ -422,7 +422,7 @@ header {
 
 /* Team Section */
 .team-section {
-  background: #F4F4FD linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7));
+  background-color: #F4F4FD;
   padding: 120px 0;
   max-width: 1440px;
   margin: 0 auto;
@@ -474,7 +474,7 @@ header {
   transform: translateY(-10px);
 }
 
-.member-photo img {
+.team-member > img {
   width: 100%;
   height: auto;
   display: block;
