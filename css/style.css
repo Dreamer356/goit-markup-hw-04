@@ -571,6 +571,11 @@ header {
   text-transform: uppercase;
   color: #4D5AE5;
   margin-bottom: 16px;
+  text-decoration: none;
+}
+
+.logo-web {
+  color: #4D5AE5;
 }
 
 .logo-studio {
@@ -603,7 +608,7 @@ header {
 .social-list {
   display: flex;
   gap: 24px;
-  padding: 0; /* добавил для надежности */
+  padding: 0;
   margin: 0;
   list-style: none;
 }
@@ -634,6 +639,7 @@ header {
   width: 24px;
   height: 24px;
 }
+
 
 .footer-link {
   display: inline-block;
