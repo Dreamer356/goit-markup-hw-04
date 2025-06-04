@@ -601,13 +601,11 @@ header {
   margin: 0;
 }
 
-/* Соцблок */
 .footer-social {
   display: flex;
   flex-direction: column;
 }
 
-/* Чек-лист: параграф с классом, все стили через класс */
 .footer-social-title {
   font-weight: 500;
   font-size: 16px;
@@ -617,7 +615,6 @@ header {
   margin-bottom: 16px;
 }
 
-/* Чек-лист: ul с классом, display: flex, gap: 16px */
 .footer-social-list {
   display: flex;
   gap: 16px;
@@ -626,13 +623,11 @@ header {
   list-style: none;
 }
 
-/* Чек-лист: li с классом, width/height */
 .footer-social-item {
   width: 40px;
   height: 40px;
 }
 
-/* Чек-лист: ссылка с классом, все стили через класс */
 .footer-social-link {
   width: 100%;
   height: 100%;
@@ -651,7 +646,6 @@ header {
   background-color: var(--footer-hover);
 }
 
-/* Чек-лист: svg с классом, fill через переменную */
 .footer-social-icon {
   fill: var(--footer-text);
   width: 24px;
