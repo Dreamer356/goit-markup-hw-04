@@ -269,33 +269,32 @@ header {
   align-items: center;
 }
 
-.feature-icon {
-  width: 100%;
-  max-width: 120px;
-  height: 120px;
-  background-color: #f5f4fa;
-  border-radius: 4px;
-  margin-bottom: 8px;
+.feature-icon-box {
   display: flex;
-  justify-content: center;
   align-items: center;
-  transition:
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  justify-content: center;
+  height: 112px;
+  width: 100%;
+  max-width: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  margin-bottom: 8px;
 }
 
-.feature-icon svg {
-  width: 40px;
-  height: 40px;
+.feature-icon-box svg {
+  width: 64px;
+  height: 64px;
+  display: block;
   fill: #212121;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.feature-item:hover .feature-icon {
+.feature-item:hover .feature-icon-box {
   background-color: #2196f3;
 }
 
-.feature-item:hover .feature-icon svg {
+.feature-item:hover .feature-icon-box svg {
   fill: #ffffff;
 }
 
@@ -313,26 +312,6 @@ header {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
-}
-
-.feature-icon svg,
-.feature-icon img {
-  width: 40px;
-  height: 40px;
-  display: block;
-  max-width: 100%;
-  max-height: 100%;
-  flex-shrink: 0;
-}
-
-.feature-icon svg {
-  width: 40px;
-  height: 40px;
-}
-
-.feature-item:hover .feature-icon svg,
-.feature-item:hover .feature-icon img {
-  fill: #FFFFFF;          
 }
 
 /* Portfolio Section */
