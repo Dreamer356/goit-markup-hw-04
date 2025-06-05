@@ -564,14 +564,14 @@ header {
 .footer-container {
   display: flex;
   align-items: baseline;
+  gap: 120px; /* ✅ замість margin-right */
   max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-  gap: 120px;
 }
 
 .footer-main {
- max-width: 264px;
+  max-width: 264px;
 }
 
 .footer-logo {
@@ -583,7 +583,6 @@ header {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--footer-accent);
-  margin-bottom: 16px;
   text-decoration: none;
 }
 
@@ -596,7 +595,7 @@ header {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin: 0;
+  margin-top: 16px; /* ✅ замість margin-bottom у попередньому елементі */
 }
 
 .footer-socials {
