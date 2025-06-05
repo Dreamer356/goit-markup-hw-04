@@ -564,11 +564,14 @@ header {
 .footer-container {
   display: flex;
   align-items: baseline;
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
   gap: 120px;
 }
 
 .footer-main {
-  max-width: 264px;
+ max-width: 264px;
 }
 
 .footer-logo {
