@@ -548,4 +548,6 @@ header {
 }
 
 /* Footer */
-
+.footer-social-title {
+  margin-bottom: 16px;
+}
