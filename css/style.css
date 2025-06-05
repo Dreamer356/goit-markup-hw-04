@@ -647,3 +647,7 @@ header {
   width: 24px;
   height: 24px;
 }
+
+.footer-main p {
+  margin-bottom: 16px;
+}
