@@ -564,7 +564,6 @@ header {
 .footer-container {
   display: flex;
   align-items: baseline;
-  gap: 120px; /* ✅ замість margin-right */
   max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
@@ -572,7 +571,9 @@ header {
 
 .footer-main {
   max-width: 264px;
+  margin-right: 120px; 
 }
+
 
 .footer-logo {
   display: inline-block;
