@@ -596,7 +596,7 @@ header {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-top: 16px; /* ✅ замість margin-bottom у попередньому елементі */
+  margin-top: 16px; 
 }
 
 .footer-socials {
